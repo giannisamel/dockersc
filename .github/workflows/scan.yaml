@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'ghcr.io/wolfi-dev/base:latest'
+          default: 'ghcr.io/fluxcd/flannel:v0.22.0'
 
 # env:
 #   REGISTRY: ghcr.io
