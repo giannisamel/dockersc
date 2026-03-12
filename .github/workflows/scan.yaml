@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'ghcr.io/activestate/bash:latest'
+          default: 'ghcr.io/homebrew/brew:latest'
 
 # env:
 #   REGISTRY: ghcr.io
