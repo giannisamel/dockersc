@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'ghcr.io/bell-sw/hardened-base:latest'
+          default: 'ghcr.io/bitnami/minideb:bookworm'
 
 # env:
 #   REGISTRY: ghcr.io
