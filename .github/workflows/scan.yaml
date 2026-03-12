@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'ghcr.io/joshkeegan/zip:latest'
+          default: 'ghcr.io/demisto/7zip:latest'
 
 # env:
 #   REGISTRY: ghcr.io
