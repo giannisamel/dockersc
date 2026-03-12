@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'ghcr.io/bitnami/minideb:bookworm'
+          default: 'ghcr.io/wolfi-dev/base:latest'
 
 # env:
 #   REGISTRY: ghcr.io
